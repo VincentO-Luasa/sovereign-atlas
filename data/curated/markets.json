@@ -1,0 +1,1815 @@
+{
+ "asOf": "2026-10-03",
+ "sources": [
+  "https://www.worldgovernmentbonds.com (country pages via wp-json API, data 1-3 Oct 2026)",
+  "https://tradingeconomics.com/bonds and /country-list/interest-rate + country interest-rate pages",
+  "https://markets.businessinsider.com (Stuttgart/Munich/Frankfurt quotes 2-Oct-2026, YTM computed)",
+  "https://www.bloomberglinea.com (JPM EMBI spreads end-Sep-2026)",
+  "https://www.dmo.gov.ng (Nigeria Eurobond yields 22-Sep-2026)",
+  "https://www.umoatitres.org (WAEMU yield curves 25-Sep-2026)",
+  "https://www.beac.int (CEMAC curves Jul-2026, TIAO)",
+  "https://www.bceao.int",
+  "https://www.bog.gov.gh",
+  "https://nbe.gov.et",
+  "cbonds.com indexes (via search snippets)",
+  "Damodaran ctryprem Jan-2026 (stale CDS fallback)"
+ ],
+ "conventions": {
+  "localCurve": "% yield, local currency",
+  "usdEurobond": "% yield; spreadBp over UST (UST 2Y 4.83, 5Y 5.06, 10Y 5.28 on 2-Oct-2026); 10Y_exchange = yield from single-exchange quote where EMBI-implied 10Y also given",
+  "cds5y": "bp",
+  "policyRate": "% ; euro area = ECB deposit facility 2.50"
+ },
+ "markets": {
+  "USA": {
+   "currency": "USD",
+   "policyRate": 4.0,
+   "cds5y": 36.43,
+   "localCurve": {
+    "3M": 4.103,
+    "6M": 4.293,
+    "1Y": 4.468,
+    "2Y": 4.825,
+    "3Y": 4.955,
+    "5Y": 5.055,
+    "7Y": 5.167,
+    "10Y": 5.277,
+    "20Y": 5.676,
+    "30Y": 5.63
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "GBR": {
+   "currency": "GBP",
+   "policyRate": 3.75,
+   "cds5y": 22.59,
+   "localCurve": {
+    "3M": 4.048,
+    "6M": 4.224,
+    "1Y": 4.551,
+    "2Y": 4.82,
+    "3Y": 4.868,
+    "5Y": 4.914,
+    "7Y": 5.154,
+    "10Y": 5.371,
+    "15Y": 5.668,
+    "20Y": 5.838,
+    "30Y": 5.891
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "FRA": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 79.75,
+   "localCurve": {
+    "3M": 2.772,
+    "6M": 3.118,
+    "1Y": 3.383,
+    "2Y": 3.734,
+    "3Y": 3.961,
+    "5Y": 4.274,
+    "7Y": 4.475,
+    "10Y": 4.859,
+    "15Y": 5.111,
+    "20Y": 5.285,
+    "30Y": 5.424
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "DEU": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 12.52,
+   "localCurve": {
+    "3M": 2.455,
+    "6M": 2.646,
+    "1Y": 2.783,
+    "2Y": 3.048,
+    "3Y": 3.073,
+    "5Y": 3.197,
+    "7Y": 3.308,
+    "10Y": 3.454,
+    "15Y": 3.698,
+    "20Y": 3.802,
+    "30Y": 3.818
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "ITA": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 51.36,
+   "localCurve": {
+    "3M": 2.693,
+    "6M": 2.867,
+    "1Y": 3.132,
+    "2Y": 3.529,
+    "3Y": 3.693,
+    "5Y": 4.05,
+    "7Y": 4.263,
+    "10Y": 4.611,
+    "15Y": 4.925,
+    "20Y": 5.049,
+    "30Y": 5.158
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "ESP": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 24.59,
+   "localCurve": {
+    "3M": 2.634,
+    "6M": 2.792,
+    "1Y": 3.047,
+    "2Y": 3.368,
+    "3Y": 3.459,
+    "5Y": 3.622,
+    "7Y": 3.784,
+    "10Y": 4.107,
+    "15Y": 4.395,
+    "20Y": 4.535,
+    "30Y": 4.629
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "PRT": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 22.47,
+   "localCurve": {
+    "3M": 2.66,
+    "6M": 2.801,
+    "1Y": 3.021,
+    "2Y": 3.263,
+    "3Y": 3.337,
+    "5Y": 3.641,
+    "7Y": 3.749,
+    "10Y": 4.001,
+    "15Y": 4.234,
+    "20Y": 4.404,
+    "30Y": 4.433
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "GRC": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 43.45,
+   "localCurve": {
+    "3M": 3.13,
+    "6M": 2.89,
+    "1Y": 3.091,
+    "2Y": 3.523,
+    "5Y": 3.942,
+    "7Y": 4.187,
+    "10Y": 4.525,
+    "15Y": 4.621,
+    "20Y": 4.727,
+    "30Y": 4.99
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "BEL": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 30.54,
+   "localCurve": {
+    "3M": 2.627,
+    "6M": 2.821,
+    "2Y": 3.365,
+    "3Y": 3.541,
+    "5Y": 3.769,
+    "7Y": 3.965,
+    "10Y": 4.337,
+    "15Y": 4.675,
+    "20Y": 4.889,
+    "30Y": 4.982
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "NLD": {
+   "currency": "EUR",
+   "policyRate": 2.5,
+   "policyRateNote": "ECB deposit facility rate (MRO 2.65) after 10-Sep-2026 hike",
+   "cds5y": 13.72,
+   "localCurve": {
+    "3M": 2.578,
+    "6M": 2.689,
+    "2Y": 3.111,
+    "3Y": 3.214,
+    "5Y": 3.308,
+    "7Y": 3.424,
+    "10Y": 3.586,
+    "15Y": 3.777,
+    "20Y": 3.857,
+    "30Y": 3.825
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "CHE": {
+   "currency": "CHF",
+   "policyRate": 0.0,
+   "cds5y": 8.0,
+   "localCurve": {
+    "3M": -0.08,
+    "6M": 0.06,
+    "1Y": 0.32,
+    "2Y": 0.189,
+    "3Y": 0.334,
+    "5Y": 0.421,
+    "7Y": 0.472,
+    "10Y": 0.525,
+    "15Y": 0.606,
+    "20Y": 0.659,
+    "30Y": 0.551
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "JPN": {
+   "currency": "JPY",
+   "policyRate": 1.25,
+   "cds5y": 29.14,
+   "localCurve": {
+    "3M": 1.282,
+    "6M": 1.391,
+    "1Y": 1.698,
+    "2Y": 1.908,
+    "3Y": 2.136,
+    "5Y": 2.366,
+    "7Y": 2.874,
+    "10Y": 3.088,
+    "20Y": 3.944,
+    "30Y": 4.194
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "notes": [
+    "15Y point dropped (feed anomaly 4.54 > 20Y)"
+   ],
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "CAN": {
+   "currency": "CAD",
+   "policyRate": 2.25,
+   "cds5y": 39.6,
+   "localCurve": {
+    "3M": 2.395,
+    "6M": 2.555,
+    "1Y": 2.91,
+    "2Y": 3.272,
+    "3Y": 3.36,
+    "5Y": 3.623,
+    "7Y": 3.68,
+    "10Y": 3.945,
+    "20Y": 4.191,
+    "30Y": 4.291
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "notes": [
+    "CDS 39.6 unchanged for >1Y on WGB (stale)"
+   ],
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "AUS": {
+   "currency": "AUD",
+   "policyRate": 4.6,
+   "cds5y": 15.94,
+   "localCurve": {
+    "1Y": 4.921,
+    "2Y": 4.832,
+    "3Y": 4.883,
+    "5Y": 4.956,
+    "7Y": 5.109,
+    "10Y": 5.328,
+    "15Y": 5.557,
+    "20Y": 5.727,
+    "30Y": 5.817
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "KOR": {
+   "currency": "KRW",
+   "policyRate": 3.0,
+   "cds5y": 22.8,
+   "localCurve": {
+    "1Y": 3.758,
+    "2Y": 3.889,
+    "3Y": 3.928,
+    "5Y": 4.118,
+    "10Y": 4.352,
+    "20Y": 4.368,
+    "30Y": 4.502
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "ISR": {
+   "currency": "ILS",
+   "policyRate": 3.25,
+   "cds5y": 61.4,
+   "localCurve": {
+    "3M": 3.07,
+    "6M": 3.025,
+    "1Y": 3.2,
+    "2Y": 3.545,
+    "3Y": 3.838,
+    "5Y": 3.89,
+    "10Y": 4.137,
+    "20Y": 4.492,
+    "30Y": 4.642
+   },
+   "usdEurobond": {
+    "10Y": 6.2,
+    "spreadBp": 90
+   },
+   "unverified": false,
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "POL": {
+   "currency": "PLN",
+   "policyRate": 3.75,
+   "cds5y": 86,
+   "localCurve": {
+    "1Y": 3.937,
+    "2Y": 4.751,
+    "3Y": 5.223,
+    "5Y": 5.919,
+    "10Y": 6.297
+   },
+   "usdEurobond": {
+    "10Y": 6.15,
+    "spreadBp": 87
+   },
+   "unverified": true,
+   "notes": [
+    "CDS: WGB shows 151 but flat for >1M (stale); 86 = Damodaran Jan-2026 (stale)",
+    "USD 2035 6.15%; Apr-2026 new 10Y priced T+105"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "HUN": {
+   "currency": "HUF",
+   "policyRate": 5.5,
+   "cds5y": 85.59,
+   "localCurve": {
+    "3M": 5.34,
+    "6M": 5.35,
+    "1Y": 5.25,
+    "3Y": 5.878,
+    "5Y": 5.821,
+    "10Y": 5.772,
+    "15Y": 5.789,
+    "20Y": 5.827
+   },
+   "usdEurobond": {
+    "10Y": 6.4,
+    "spreadBp": 112
+   },
+   "unverified": false,
+   "notes": [
+    "USD 2035/2036 6.37-6.41"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price) ; cbonds index (YTM 5.9, T+93, 24-Aug-2026)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "ROU": {
+   "currency": "RON",
+   "policyRate": 6.5,
+   "cds5y": 200,
+   "localCurve": {
+    "6M": 7.71,
+    "1Y": 6.9,
+    "2Y": 7.39,
+    "3Y": 7.52,
+    "5Y": 7.37,
+    "7Y": 7.65,
+    "10Y": 7.64
+   },
+   "usdEurobond": {
+    "indexYtm": 6.48,
+    "spreadBp": 156
+   },
+   "unverified": true,
+   "notes": [
+    "CDS ~200: Jan-2026 197 (Damodaran); Bloomberg 16-Sep-2026 says highest among IG sovereigns",
+    "USD figure is index YTM (all maturities), not a 10Y point"
+   ],
+   "sources": [
+    "cbonds Romania USD sovereign index 14-Aug-2026",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "CZE": {
+   "currency": "CZK",
+   "policyRate": 3.75,
+   "cds5y": 34,
+   "localCurve": {
+    "1Y": 3.855,
+    "2Y": 4.244,
+    "3Y": 4.316,
+    "5Y": 4.593,
+    "7Y": 5.025,
+    "10Y": 5.282,
+    "15Y": 5.394,
+    "20Y": 5.584
+   },
+   "usdEurobond": null,
+   "unverified": true,
+   "notes": [
+    "CDS from Damodaran Jan-2026 (stale, pre oil-shock)"
+   ],
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "TUR": {
+   "currency": "TRY",
+   "policyRate": 37.0,
+   "cds5y": 252.1,
+   "localCurve": {
+    "3M": 34.114,
+    "6M": 34.158,
+    "2Y": 40.35,
+    "3Y": 39.38,
+    "5Y": 38.83,
+    "10Y": 35.61
+   },
+   "usdEurobond": {
+    "5Y": 7.45,
+    "10Y": 7.95,
+    "spreadBp": 267
+   },
+   "unverified": false,
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "UKR": {
+   "currency": "UAH",
+   "policyRate": 16.0,
+   "cds5y": 550.9,
+   "localCurve": {
+    "1Y": 33.5,
+    "2Y": 30.05,
+    "3Y": 27.25
+   },
+   "usdEurobond": {
+    "5Y": 13.0,
+    "10Y": 12.4,
+    "spreadBp": 740
+   },
+   "unverified": false,
+   "notes": [
+    "UAH curve from WGB (10Y simulated, excluded)",
+    "2029s ~85c/13%; 2035-36 step-ups ~58c (~12.2-12.6% bullet-equiv)"
+   ],
+   "sources": [
+    "moneyweb/Bloomberg 21-Aug-2026 ; markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "KAZ": {
+   "currency": "KZT",
+   "policyRate": 16.25,
+   "policyRateNote": "NBK, cut 50bp Sep-2026",
+   "cds5y": 117,
+   "localCurve": {
+    "6M": 16.231,
+    "1Y": 15.675,
+    "2Y": 15.356,
+    "3Y": 15.0,
+    "5Y": 14.469,
+    "7Y": 14.075,
+    "10Y": 13.87,
+    "15Y": 13.861
+   },
+   "usdEurobond": {
+    "5Y": 5.5,
+    "10Y": 5.93,
+    "20Y": 6.44,
+    "spreadBp": 65
+   },
+   "unverified": true,
+   "notes": [
+    "CDS from Damodaran Jan-2026 (stale, pre oil-shock)",
+    "USD: 2030 5.48, 2032 5.76, 2035 5.93, 2037 6.16"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "UZB": {
+   "currency": "UZS",
+   "policyRate": 14.0,
+   "policyRateNote": "CBU, Sep-2026",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 6.21,
+    "5Y": 6.54,
+    "7Y": 6.47
+   },
+   "unverified": false,
+   "notes": [
+    "USD: 2028 6.21, 2030 6.54, 2032 6.4-6.5",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "SRB": {
+   "currency": "RSD",
+   "policyRate": 5.75,
+   "cds5y": 182,
+   "localCurve": {
+    "1Y": 4.86,
+    "3Y": 5.15,
+    "7Y": 5.6,
+    "10Y": 5.7
+   },
+   "usdEurobond": {
+    "2Y": 5.9,
+    "5Y": 6.4,
+    "10Y": 6.68,
+    "spreadBp": 140
+   },
+   "unverified": true,
+   "notes": [
+    "CDS from Damodaran Jan-2026 (stale, pre oil-shock)",
+    "USD: 2028 5.9, 2030 6.4, 2033 6.6, 2036 6.68"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "BRA": {
+   "currency": "BRL",
+   "policyRate": 13.75,
+   "cds5y": 131.04,
+   "localCurve": {
+    "3M": 13.364,
+    "6M": 13.44,
+    "1Y": 13.41,
+    "2Y": 13.803,
+    "3Y": 14.01,
+    "5Y": 14.163,
+    "10Y": 14.27
+   },
+   "usdEurobond": {
+    "10Y": 6.99,
+    "spreadBp": 171,
+    "2Y": 4.99,
+    "5Y": 6.04,
+    "10Y_exchange": 7.0
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread end-Sep; 10Y = UST10Y + spread (as of 2026-09-30)"
+   ],
+   "sources": [
+    "https://www.bloomberglinea.com/latinoamerica/asi-cerro-el-riesgo-pais-en-latinoamerica-en-septiembre-fuerte-alza-en-argentina-bolivia-y-ecuador/",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "MEX": {
+   "currency": "MXN",
+   "policyRate": 6.5,
+   "cds5y": 97.69,
+   "localCurve": {
+    "3M": 6.61,
+    "6M": 6.771,
+    "1Y": 7.037,
+    "3Y": 7.937,
+    "5Y": 8.659,
+    "7Y": 9.23,
+    "10Y": 9.507,
+    "15Y": 9.782,
+    "20Y": 9.974,
+    "30Y": 10.064
+   },
+   "usdEurobond": {
+    "10Y": 7.41,
+    "spreadBp": 213
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread; 10Y = UST + spread (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "ARG": {
+   "currency": "ARS",
+   "policyRate": null,
+   "policyRateNote": "No formal BCRA policy rate since Jul-2025; TAMAR ~24.4% TNA used as market reference",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 26.5,
+    "6M": 29.1
+   },
+   "usdEurobond": {
+    "10Y": 11.8,
+    "spreadBp": 650,
+    "5Y": 8.4,
+    "10Y_exchange": 9.5
+   },
+   "unverified": false,
+   "notes": [
+    "WGB Argentina feed stale since 2022 (dropped). Local = Lecap TEA (BCRA/press)",
+    "USD: Riesgo pais ~650 (2026 high). Local = Lecap TEA. No formal policy rate since Jul-2025; TAMAR ~24.4% TNA (as of 2026-10-02)",
+    "USD exchange: 2031 ~8-8.8%, Global 2035 step-up 67-70c (~9.2-9.8%)"
+   ],
+   "sources": [
+    "https://www.lanacion.com.ar/economia/el-riesgo-pais-escala-hasta-los-650-puntos-el-valor-mas-alto-del-ano-nid02102026/",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "CHL": {
+   "currency": "CLP",
+   "policyRate": 4.5,
+   "cds5y": 67.03,
+   "localCurve": {
+    "1Y": 5.26,
+    "2Y": 5.25,
+    "5Y": 5.87,
+    "10Y": 6.2,
+    "20Y": 6.2,
+    "30Y": 6.2
+   },
+   "usdEurobond": {
+    "10Y": 6.24,
+    "spreadBp": 96,
+    "2Y": 5.38,
+    "5Y": 5.65,
+    "10Y_exchange": 6.04
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "COL": {
+   "currency": "COP",
+   "policyRate": 12.25,
+   "cds5y": 149.16,
+   "localCurve": {
+    "2Y": 12.743,
+    "5Y": 13.019,
+    "10Y": 13.012,
+    "15Y": 13.119
+   },
+   "usdEurobond": {
+    "10Y": 7.54,
+    "spreadBp": 226,
+    "5Y": 7.0,
+    "10Y_exchange": 7.6
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "PER": {
+   "currency": "PEN",
+   "policyRate": 4.25,
+   "cds5y": null,
+   "localCurve": {
+    "2Y": 4.18,
+    "5Y": 4.71,
+    "10Y": 6.35,
+    "20Y": 6.72,
+    "30Y": 6.73
+   },
+   "usdEurobond": {
+    "10Y": 6.41,
+    "spreadBp": 113,
+    "10Y_exchange": 6.4
+   },
+   "unverified": false,
+   "notes": [
+    "WGB 10Y simulated; 10Y from TradingEconomics 1-Oct-2026",
+    "USD: EMBI spread; 15Y point looks anomalous (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea; tradingeconomics Peru 10Y",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "tradingeconomics.com (10Y)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "ECU": {
+   "currency": "USD",
+   "policyRate": null,
+   "policyRateNote": "dollarised",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 10.16,
+    "spreadBp": 488,
+    "10Y_exchange": 9.6
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI (new JPM methodology Sep-26 lifted spread technically) (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea; larepublica.ec"
+   ]
+  },
+  "DOM": {
+   "currency": "DOP",
+   "policyRate": 5.25,
+   "policyRateNote": "BCRD",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 7.04,
+    "spreadBp": 176,
+    "2Y": 6.21,
+    "5Y": 6.76,
+    "10Y_exchange": 7.05
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "PAN": {
+   "currency": "USD",
+   "policyRate": null,
+   "policyRateNote": "dollarised",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 6.62,
+    "spreadBp": 134,
+    "2Y": 5.51,
+    "5Y": 5.91,
+    "10Y_exchange": 6.5
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "CRI": {
+   "currency": "CRC",
+   "policyRate": 3.0,
+   "policyRateNote": "BCCR",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 6.65,
+    "spreadBp": 137
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "bloomberglinea"
+   ]
+  },
+  "SLV": {
+   "currency": "USD",
+   "policyRate": null,
+   "policyRateNote": "dollarised",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 8.01,
+    "spreadBp": 273
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)"
+   ],
+   "sources": [
+    "bloomberglinea"
+   ]
+  },
+  "BOL": {
+   "currency": "BOB",
+   "policyRate": 6.89,
+   "policyRateNote": "BCB reference (TE)",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 10.11,
+    "spreadBp": 483,
+    "2Y": 8.0,
+    "5Y": 10.3
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI +87bp m/m (as of 2026-09-30)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "URY": {
+   "currency": "UYU",
+   "policyRate": 5.75,
+   "policyRateNote": "BCU, Jul-2026",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "10Y": 6.06,
+    "spreadBp": 78,
+    "10Y_exchange": 6.11
+   },
+   "unverified": false,
+   "notes": [
+    "USD: EMBI spread (as of 2026-09-30)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "bloomberglinea",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "CHN": {
+   "currency": "CNY",
+   "policyRate": 3.0,
+   "policyRateNote": "1Y LPR (7d reverse repo is the operational rate)",
+   "cds5y": 36.74,
+   "localCurve": {
+    "1Y": 1.227,
+    "2Y": 1.261,
+    "3Y": 1.285,
+    "5Y": 1.405,
+    "7Y": 1.513,
+    "10Y": 1.683,
+    "15Y": 1.828,
+    "20Y": 2.108,
+    "30Y": 2.126
+   },
+   "usdEurobond": {
+    "2Y": 4.6,
+    "5Y": 4.74
+   },
+   "unverified": false,
+   "notes": [
+    "USD 2028 4.6%, 2031 4.74%"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "IND": {
+   "currency": "INR",
+   "policyRate": 5.25,
+   "cds5y": 87.67,
+   "localCurve": {
+    "3M": 5.45,
+    "6M": 5.962,
+    "1Y": 6.481,
+    "2Y": 6.634,
+    "3Y": 6.911,
+    "5Y": 6.868,
+    "7Y": 7.172,
+    "10Y": 7.209,
+    "15Y": 7.419,
+    "30Y": 7.682
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "notes": [
+    "CDS 87.7 unchanged for >1M on WGB (possibly stale; Jan-2026 66)"
+   ],
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "IDN": {
+   "currency": "IDR",
+   "policyRate": 5.75,
+   "cds5y": 94.37,
+   "localCurve": {
+    "3M": 6.474,
+    "6M": 6.56,
+    "1Y": 6.777,
+    "3Y": 7.072,
+    "5Y": 7.072,
+    "10Y": 7.159,
+    "15Y": 7.257,
+    "20Y": 7.222,
+    "30Y": 7.296
+   },
+   "usdEurobond": {
+    "2Y": 4.9,
+    "5Y": 5.68,
+    "10Y": 6.26,
+    "30Y": 6.6,
+    "spreadBp": 98
+   },
+   "unverified": false,
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "PHL": {
+   "currency": "PHP",
+   "policyRate": 5.0,
+   "cds5y": 57.35,
+   "localCurve": {
+    "3M": 5.665,
+    "6M": 5.802,
+    "1Y": 6.025,
+    "2Y": 6.784,
+    "3Y": 6.975,
+    "5Y": 7.525,
+    "7Y": 7.571,
+    "10Y": 7.747,
+    "20Y": 7.825
+   },
+   "usdEurobond": {
+    "2Y": 4.87,
+    "5Y": 5.54,
+    "10Y": 6.12,
+    "30Y": 6.7,
+    "spreadBp": 84
+   },
+   "unverified": false,
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "VNM": {
+   "currency": "VND",
+   "policyRate": 4.5,
+   "cds5y": 137,
+   "localCurve": {
+    "1Y": 3.69,
+    "2Y": 3.793,
+    "3Y": 3.853,
+    "5Y": 4.399,
+    "7Y": 4.47,
+    "10Y": 4.588,
+    "15Y": 4.726,
+    "20Y": 4.808,
+    "30Y": 4.871
+   },
+   "usdEurobond": null,
+   "unverified": true,
+   "notes": [
+    "CDS from Damodaran Jan-2026 (stale, pre oil-shock)"
+   ],
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "MYS": {
+   "currency": "MYR",
+   "policyRate": 2.75,
+   "cds5y": 57.19,
+   "localCurve": {
+    "3M": 2.96,
+    "1Y": 3.04,
+    "3Y": 3.498,
+    "5Y": 3.786,
+    "7Y": 3.994,
+    "10Y": 4.01,
+    "15Y": 4.22,
+    "20Y": 4.357,
+    "30Y": 4.473
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "THA": {
+   "currency": "THB",
+   "policyRate": 1.0,
+   "cds5y": 52,
+   "localCurve": {
+    "1Y": 1.198,
+    "2Y": 1.45,
+    "3Y": 1.498,
+    "5Y": 1.74,
+    "7Y": 2.18,
+    "10Y": 2.34,
+    "15Y": 2.878,
+    "20Y": 3.185
+   },
+   "usdEurobond": null,
+   "unverified": true,
+   "notes": [
+    "CDS from Damodaran Jan-2026 (stale, pre oil-shock)"
+   ],
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "PAK": {
+   "currency": "PKR",
+   "policyRate": 11.5,
+   "cds5y": 505.92,
+   "localCurve": {
+    "3Y": 12.248,
+    "5Y": 12.761,
+    "10Y": 12.811,
+    "20Y": 12.842
+   },
+   "usdEurobond": {
+    "5Y": 7.5,
+    "10Y": 7.9,
+    "spreadBp": 262
+   },
+   "unverified": false,
+   "notes": [
+    "Sep-2026 new-issue coupons (5.5Y 7.5%, 10Y 7.9%); looks tight vs CDS ~506"
+   ],
+   "sources": [
+    "https://www.dawn.com/news/2027330/pakistan-raises-record-3bn-via-eurobond",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "LKA": {
+   "currency": "LKR",
+   "policyRate": 8.75,
+   "cds5y": null,
+   "localCurve": {
+    "3M": 9.25,
+    "6M": 9.45,
+    "1Y": 10.04,
+    "2Y": 10.517,
+    "3Y": 10.817,
+    "5Y": 11.324,
+    "7Y": 11.805,
+    "10Y": 12.176,
+    "15Y": 12.31
+   },
+   "usdEurobond": {
+    "2Y": 6.28
+   },
+   "unverified": false,
+   "notes": [
+    "USD: restructured 2028 4% at 96.7 (6.3%); legacy bonds ~51c stale. Fitch upgrade to B- 22-Sep-2026"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "BGD": {
+   "currency": "BDT",
+   "policyRate": 9.5,
+   "cds5y": null,
+   "localCurve": {
+    "3M": 8.31,
+    "6M": 8.58,
+    "1Y": 8.98,
+    "2Y": 8.9,
+    "5Y": 8.68,
+    "10Y": 8.57,
+    "15Y": 9.37,
+    "20Y": 9.38
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "sources": [
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "MNG": {
+   "currency": "MNT",
+   "policyRate": 12.5,
+   "policyRateNote": "BoM, Sep-2026",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "3Y": 6.5,
+    "5Y": 6.82
+   },
+   "unverified": false,
+   "notes": [
+    "USD: 2029 6.50, 2030 6.52, 2032 6.82",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "SAU": {
+   "currency": "SAR",
+   "policyRate": 4.5,
+   "policyRateNote": "SAMA repo",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 5.35,
+    "5Y": 5.85,
+    "10Y": 6.15,
+    "spreadBp": 85
+   },
+   "unverified": false,
+   "notes": [
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "ARE": {
+   "currency": "AED",
+   "policyRate": 3.9,
+   "policyRateNote": "CBUAE base rate",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 5.3,
+    "5Y": 5.6,
+    "10Y": 5.85,
+    "spreadBp": 55,
+    "issuer": "Abu Dhabi"
+   },
+   "unverified": false,
+   "notes": [
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "QAT": {
+   "currency": "QAR",
+   "policyRate": 4.6,
+   "policyRateNote": "QCB deposit",
+   "cds5y": 65.0,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 5.4,
+    "5Y": 5.57,
+    "10Y": 5.9,
+    "spreadBp": 45
+   },
+   "unverified": false,
+   "notes": [
+    "WGB Qatar curve is USD-based; no QAR local curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "OMN": {
+   "currency": "OMR",
+   "policyRate": 4.5,
+   "policyRateNote": "CBO repo",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 5.85,
+    "5Y": 5.85,
+    "10Y": 6.1,
+    "spreadBp": 80
+   },
+   "unverified": false,
+   "notes": [
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "BHR": {
+   "currency": "BHD",
+   "policyRate": 4.75,
+   "policyRateNote": "CBB 1-week deposit",
+   "cds5y": 255.0,
+   "localCurve": {
+    "3M": 5.43,
+    "6M": 5.649,
+    "1Y": 5.799,
+    "2Y": 6.094
+   },
+   "usdEurobond": {
+    "2Y": 8.65,
+    "5Y": 8.79,
+    "10Y": 8.85,
+    "spreadBp": 355
+   },
+   "unverified": false,
+   "notes": [
+    "local 5Y dropped (appears USD-based)",
+    "USD curve flat/inverted ~8.7-9.0%: stressed"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "KWT": {
+   "currency": "KWD",
+   "policyRate": 3.5,
+   "policyRateNote": "CBK discount rate",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 5.37,
+    "5Y": 5.81,
+    "10Y": 6.1,
+    "spreadBp": 80
+   },
+   "unverified": false,
+   "notes": [
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "EGY": {
+   "currency": "EGP",
+   "policyRate": 19.0,
+   "cds5y": 326.65,
+   "localCurve": {
+    "3M": 24.481,
+    "6M": 25.283,
+    "1Y": 25.501,
+    "2Y": 25.15,
+    "3Y": 23.86,
+    "5Y": 23.46,
+    "7Y": 23.41,
+    "10Y": 23.15
+   },
+   "usdEurobond": {
+    "2Y": 6.9,
+    "5Y": 8.15,
+    "10Y": 9.0,
+    "spreadBp": 370
+   },
+   "unverified": false,
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "MAR": {
+   "currency": "MAD",
+   "policyRate": 2.25,
+   "cds5y": null,
+   "localCurve": {
+    "3M": 2.284,
+    "6M": 2.3,
+    "2Y": 2.647,
+    "5Y": 3.08,
+    "10Y": 3.563,
+    "15Y": 3.917
+   },
+   "usdEurobond": {
+    "2Y": 5.9,
+    "5Y": 6.2,
+    "10Y": 6.4,
+    "spreadBp": 112
+   },
+   "unverified": false,
+   "notes": [
+    "USD: 2028 5.9, 2032 6.4, 2033 6.4, 2042 6.9; EUR 2035 5.5"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "TUN": {
+   "currency": "TND",
+   "policyRate": 7.0,
+   "policyRateNote": "BCT, Jul-2026",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "1Y": 6.7
+   },
+   "unverified": false,
+   "notes": [
+    "only BCT USD 2027 quoted (6.7%)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "JOR": {
+   "currency": "JOD",
+   "policyRate": 5.75,
+   "policyRateNote": "CBJ main rate (last change Feb-2026 per WGB)",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 6.85,
+    "5Y": 6.85,
+    "10Y": 7.3,
+    "spreadBp": 200
+   },
+   "unverified": false,
+   "notes": [
+    "only an 18M local point (6.56%) available"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "LBN": {
+   "currency": "LBP",
+   "policyRate": 25.0,
+   "policyRateNote": "BdL rate, not operative",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "priceCents": 28.5,
+    "status": "in default"
+   },
+   "unverified": false,
+   "notes": [
+    "Eurobonds in default, ~27-30c (Credit Libanais / exchange quotes Sep-Oct 2026)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "IRQ": {
+   "currency": "IQD",
+   "policyRate": 5.5,
+   "policyRateNote": "CBI policy rate",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 6.6
+   },
+   "unverified": false,
+   "notes": [
+    "only amortizing 2028 bond",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "ZAF": {
+   "currency": "ZAR",
+   "policyRate": 7.25,
+   "cds5y": 130.86,
+   "localCurve": {
+    "3M": 6.65,
+    "5Y": 8.405,
+    "10Y": 9.01,
+    "20Y": 9.565,
+    "30Y": 9.38
+   },
+   "usdEurobond": {
+    "2Y": 5.77,
+    "5Y": 6.2,
+    "10Y": 6.9,
+    "spreadBp": 162
+   },
+   "unverified": false,
+   "notes": [
+    "USD: 2028 5.77, 2030 6.18, 2032 6.34, 2041 7.63; 10Y interpolated"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "NGA": {
+   "currency": "NGN",
+   "policyRate": 23.0,
+   "cds5y": null,
+   "localCurve": {
+    "2Y": 15.79,
+    "3Y": 15.966,
+    "5Y": 15.992,
+    "7Y": 16.087,
+    "10Y": 15.952,
+    "20Y": 14.664,
+    "30Y": 14.564
+   },
+   "usdEurobond": {
+    "2Y": 6.1,
+    "5Y": 6.7,
+    "10Y": 7.4,
+    "30Y": 8.21,
+    "spreadBp": 212
+   },
+   "unverified": false,
+   "notes": [
+    "USD: DMO closing yields 22-Sep-2026"
+   ],
+   "sources": [
+    "https://www.dmo.gov.ng/6068-nigeria-s-eurobonds-closing-prices-and-yields-as-at-tuesday-september-22-2026/file",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "KEN": {
+   "currency": "KES",
+   "policyRate": 8.75,
+   "cds5y": null,
+   "localCurve": {
+    "2Y": 9.33,
+    "3Y": 10.21,
+    "5Y": 9.43,
+    "7Y": 10.72,
+    "10Y": 12.28,
+    "15Y": 12.97,
+    "20Y": 13.44
+   },
+   "usdEurobond": {
+    "2Y": 7.03,
+    "5Y": 8.6,
+    "10Y": 9.1,
+    "spreadBp": 382
+   },
+   "unverified": false,
+   "notes": [
+    "USD: 10Y=2036 9.09% (24-Sep); 2028 7.03, 2032 8.51, 2034 8.9-9.2, 2038 9.9 (2-Oct)"
+   ],
+   "sources": [
+    "https://www.businessdailyafrica.com/bd/markets/capital-markets/kenyan-eurobond-yields-fall-defy-renewed-jitters-5613944 ; markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "GHA": {
+   "currency": "GHS",
+   "policyRate": 14.0,
+   "policyRateNote": "BoG, held Sep-2026",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 4.68,
+    "6M": 6.37,
+    "1Y": 9.83
+   },
+   "usdEurobond": {
+    "3Y": 7.0
+   },
+   "unverified": false,
+   "notes": [
+    "BoG T-bill rates 28-Sep-2026 tender",
+    "USD: only restructured 2029 amortizer (95c, ~7.0% bullet-equiv); 2035/2037 not quoted; legacy defaulted bonds still quoted ~37-52c (stale)"
+   ],
+   "sources": [
+    "https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "ZMB": {
+   "currency": "ZMW",
+   "policyRate": 10.75,
+   "cds5y": null,
+   "localCurve": {
+    "6M": 9.193,
+    "1Y": 10.11,
+    "2Y": 11.3,
+    "3Y": 12.69,
+    "5Y": 13.61,
+    "7Y": 14.09,
+    "10Y": 14.77,
+    "15Y": 15.75
+   },
+   "usdEurobond": {
+    "7Y": 6.5
+   },
+   "unverified": false,
+   "notes": [
+    "local curve WGB/TE 2-Oct-2026",
+    "USD: restructured 2033 5.75% amortizer at 95.7 (~6.5% bullet-equiv)"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)",
+    "worldgovernmentbonds.com"
+   ]
+  },
+  "CIV": {
+   "currency": "XOF",
+   "policyRate": 3.0,
+   "policyRateNote": "BCEAO minimum bid rate (marginal lending 5.00%), since 16-Mar-2026, held 9-Sep-2026",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 4.28,
+    "6M": 4.31,
+    "1Y": 4.89,
+    "2Y": 6.03,
+    "3Y": 6.67,
+    "5Y": 7.21,
+    "7Y": 7.36,
+    "10Y": 7.35,
+    "15Y": 7.22
+   },
+   "usdEurobond": {
+    "10Y": 7.8,
+    "spreadBp": 250
+   },
+   "unverified": true,
+   "notes": [
+    "UMOA-Titres smoothed XOF curve 25-Sep-2026",
+    "USD 10Y is an ESTIMATE from own knowledge (no quote found); EUR curve is benchmark"
+   ],
+   "sources": [
+    "https://www.umoatitres.org/wp-content/uploads/2026/09/COURBES-DE-TAUX.au_.25.09.2026.xlsx"
+   ]
+  },
+  "SEN": {
+   "currency": "XOF",
+   "policyRate": 3.0,
+   "policyRateNote": "BCEAO minimum bid rate (marginal lending 5.00%), since 16-Mar-2026, held 9-Sep-2026",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 6.89,
+    "6M": 7.11,
+    "1Y": 7.45,
+    "2Y": 7.89,
+    "3Y": 8.13,
+    "5Y": 8.24,
+    "7Y": 7.97,
+    "10Y": 7.22,
+    "15Y": 5.81
+   },
+   "usdEurobond": {
+    "5Y": 26.1,
+    "20Y": 13.95,
+    "priceCents": 51.5
+   },
+   "unverified": false,
+   "notes": [
+    "UMOA-Titres smoothed curve 25-Sep-2026; thin long end",
+    "USD/EUR Eurobonds ~49-52c: DISTRESSED (debt crisis/restructuring risk); yields not meaningful"
+   ],
+   "sources": [
+    "https://www.umoatitres.org/wp-content/uploads/2026/09/COURBES-DE-TAUX.au_.25.09.2026.xlsx",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "AGO": {
+   "currency": "AOA",
+   "policyRate": 14.75,
+   "policyRateNote": "BNA, cut 100bp Sep-2026",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "2Y": 6.6,
+    "5Y": 8.9,
+    "10Y": 9.9,
+    "spreadBp": 462
+   },
+   "unverified": false,
+   "notes": [
+    "USD: 2028 6.61, 2031 8.82, 2033 9.67, 2035 9.86, 2037 10.21, 2048 10.59",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "ETH": {
+   "currency": "ETB",
+   "policyRate": 16.0,
+   "policyRateNote": "NBE, Jul-2026",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 4.02,
+    "6M": 5.14,
+    "1Y": 7.85
+   },
+   "usdEurobond": null,
+   "unverified": false,
+   "notes": [
+    "NBE T-bill auction 2-Sep-2026, weighted avg",
+    "Eurobond in default/restructuring; no quote found"
+   ],
+   "sources": [
+    "https://nbe.gov.et/treasury-bills/"
+   ]
+  },
+  "GAB": {
+   "currency": "XAF",
+   "policyRate": 4.5,
+   "policyRateNote": "BEAC TIAO",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 5.89,
+    "6M": 7.45,
+    "1Y": 9.26,
+    "2Y": 10.15,
+    "3Y": 9.76,
+    "5Y": 8.6,
+    "7Y": 7.81,
+    "10Y": 7.15
+   },
+   "usdEurobond": {
+    "5Y": 11.9,
+    "7Y": 12.9
+   },
+   "unverified": false,
+   "notes": [
+    "BEAC XAF curve Jul-2026",
+    "USD: 2031s ~82c (11.8-12.0%), new 2033 9.375% at 84.4 (12.9%): distressed"
+   ],
+   "sources": [
+    "https://www.beac.int/wp-content/uploads/2016/10/Courbe-des-taux-de-rendement-des-titres-publics-Gabonais-juillet-26.pdf",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "CMR": {
+   "currency": "XAF",
+   "policyRate": 4.5,
+   "policyRateNote": "BEAC TIAO",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 6.28,
+    "6M": 7.09,
+    "1Y": 8.18,
+    "2Y": 9.19,
+    "3Y": 9.52,
+    "5Y": 9.65,
+    "7Y": 9.64,
+    "10Y": 9.62,
+    "15Y": 9.61
+   },
+   "usdEurobond": {
+    "7Y": 9.75
+   },
+   "unverified": false,
+   "notes": [
+    "BEAC XAF curve Jul-2026",
+    "USD 2033 8.875% at 95.9 (9.75%); EUR 2032 ~9.3%"
+   ],
+   "sources": [
+    "https://www.beac.int/wp-content/uploads/2016/10/Courbe-des-taux-de-rendement-des-titres-publics-Camerounais-juillet-26.pdf",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "RWA": {
+   "currency": "RWF",
+   "policyRate": 8.75,
+   "policyRateNote": "BNR, Aug-2026",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": {
+    "5Y": 6.7
+   },
+   "unverified": false,
+   "notes": [
+    "USD 2031 5.5% at 95.2 (6.7%)",
+    "no local-currency curve found"
+   ],
+   "sources": [
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "BEN": {
+   "currency": "XOF",
+   "policyRate": 3.0,
+   "policyRateNote": "BCEAO minimum bid rate (marginal lending 5.00%), since 16-Mar-2026, held 9-Sep-2026",
+   "cds5y": null,
+   "localCurve": {
+    "3M": 2.82,
+    "6M": 4.62,
+    "1Y": 6.19,
+    "2Y": 6.7,
+    "3Y": 6.6,
+    "5Y": 6.57,
+    "7Y": 6.84,
+    "10Y": 7.43
+   },
+   "usdEurobond": {
+    "7Y": 7.5,
+    "10Y": 7.97,
+    "spreadBp": 269
+   },
+   "unverified": false,
+   "notes": [
+    "UMOA-Titres smoothed curve 25-Sep-2026",
+    "USD sukuk 2033 7.48%, USD 2038 7.97%; EUR 2035 6.9%"
+   ],
+   "sources": [
+    "https://www.umoatitres.org/wp-content/uploads/2026/09/COURBES-DE-TAUX.au_.25.09.2026.xlsx",
+    "markets.businessinsider.com exchange quotes 2-Oct-2026 (YTM computed from price)"
+   ]
+  },
+  "MOZ": {
+   "currency": "MZN",
+   "policyRate": 9.25,
+   "policyRateNote": "BdM MIMO",
+   "cds5y": null,
+   "localCurve": null,
+   "usdEurobond": null,
+   "unverified": false,
+   "notes": [
+    "Eurobond in default/restructuring; no quote found",
+    "no local-currency curve found"
+   ],
+   "sources": []
+  }
+ }
+}

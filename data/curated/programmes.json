@@ -1,0 +1,1126 @@
+{
+ "asOf": "2026-10-03",
+ "sources": [
+  "IMF Lending Arrangements as of 31-Aug-2026: https://www.imf.org/external/np/fin/tad/extarr11.aspx?memberKey1=ZZZZ&date1key=2026-08-31",
+  "IMF press releases 2026 (Ukraine PR26/066, PR26/254; Egypt PR26/271; Pakistan PR26/147; Sri Lanka PR26/172; Argentina PR26/165; Ecuador PR26/126; Jordan PR26/211; El Salvador PR26/316; Rwanda PR26/191; Serbia PR26/201; Senegal PR26/282; Bolivia PR26/268; Bangladesh PR26/182; Cote d'Ivoire PR26/222; Benin PR26/001)",
+  "IMF: Colombia cancels FCL, PR25/324 (Oct-2025)",
+  "Bloomberg/Reuters/Rio Times: Bolivia EFF approval (2-Oct-2026)",
+  "Bloomberg, Ecofin, Africanews: Senegal SLA and Common Framework reprofiling (Sep-2026)",
+  "Ecofin/The EastAfrican: Ethiopia Eurobond agreement in principle (Jun-2026)",
+  "Interfax/Kyiv Post: Ukraine GDP-warrant restructuring (Dec-2025)",
+  "Ghana Presidency/GBC: Ghana ECF exit and PCI (May-2026)",
+  "Polity/Lusaka Times: Zambia successor programme talks (Sep-2026)",
+  "Africanews/Bloomberg/Ecofin: Mozambique IMF repayment and restructuring outlook (2026)",
+  "Ecofin/Financial Afrik: Gabon IMF request and debt audit (2026)",
+  "Al-Monitor/Reuters: Lebanon IMF talks (Sep-2026)",
+  "Bloomberg (Sep-2026): Scope downgrades France to A+; US News/Fortune: Fitch & S&P affirm US AA+ (2026)",
+  "The National/AGBI: Gulf ratings and Iran war (2026)",
+  "S&P/Moody's via Tribune: Nigeria upgrades (May-2026)",
+  "Rio Times: Tunisia debt/IMF standoff (2026)",
+  "Model knowledge (historical default record; headlines marked unverified)"
+ ],
+ "countries": {
+  "USA": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AA+ affirmed by S&P (Jun-2026) and Fitch (Aug-2026), Moody's Aa1 since May-2025; deficits ~6-7% of GDP the key constraint.",
+   "unverified": false
+  },
+  "GBR": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AA/Aa3 sovereign; gilt-market sensitivity to fiscal rules and high debt-interest bill keeps budget credibility in focus.",
+   "unverified": true
+  },
+  "FRA": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Scope cut France to A+ (Sep-2026), matching Fitch and S&P; budget fight and debt near 122% of GDP threaten government.",
+   "unverified": false
+  },
+  "DEU": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AAA anchor; debt-brake reform funds defence and infrastructure spending, lifting Bund supply but ratings stable.",
+   "unverified": true
+  },
+  "ITA": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Upgraded to BBB+ range in 2025 on fiscal discipline; BTP-Bund spread at multi-year tights.",
+   "unverified": true
+  },
+  "ESP": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Upgraded to A/A+ in 2025 on strong growth; debt ratio falling, outperforming euro-area peers.",
+   "unverified": true
+  },
+  "PRT": {
+   "imf": null,
+   "defaults": [],
+   "headline": "A-range ratings after 2025 upgrades; budget surpluses and declining debt ratio below 100% of GDP.",
+   "unverified": true
+  },
+  "GRC": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "2012",
+     "desc": "PSI bond exchange, ~EUR197bn, ~53% face-value haircut (largest sovereign restructuring); Dec-2012 buyback"
+    },
+    {
+     "year": "2015",
+     "desc": "Missed IMF repayments (Jun-Jul 2015 arrears to IMF, cleared Jul-2015)"
+    }
+   ],
+   "headline": "Investment grade restored (2023-25); early repayment of bailout loans and fast-falling debt ratio.",
+   "unverified": true
+  },
+  "BEL": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Downgraded to A+ by Fitch (2025); persistent ~5% deficits and rising debt pressure ratings.",
+   "unverified": true
+  },
+  "NLD": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AAA, low debt (~45% of GDP); politically fragmented but fiscally strong.",
+   "unverified": true
+  },
+  "CHE": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AAA safe haven; very low debt, strong franc and near-zero policy rates.",
+   "unverified": true
+  },
+  "JPN": {
+   "imf": null,
+   "defaults": [],
+   "headline": "A/A1 ratings; rising JGB yields and fiscal-expansion plans test debt sustainability at ~230% of GDP.",
+   "unverified": true
+  },
+  "CAN": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AAA/Aaa; larger federal deficits for defence and tariff support, but ratings stable.",
+   "unverified": true
+  },
+  "AUS": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AAA rated with stable outlook; moderate deficits and low net debt.",
+   "unverified": true
+  },
+  "KOR": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1998",
+     "desc": "Asian crisis: ~$22bn short-term foreign bank debt rescheduled into government-guaranteed loans (no bond default)"
+    }
+   ],
+   "headline": "AA/Aa2 ratings stable; fiscal expansion and FX volatility watched, but external position strong.",
+   "unverified": true
+  },
+  "ISR": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Ratings cut in 2024 over war costs; outlooks stabilised as regional conflict and Iran war shape fiscal path.",
+   "unverified": true
+  },
+  "POL": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1981",
+     "desc": "Default on commercial and official debt; Paris and London Club reschedulings 1981-89"
+    },
+    {
+     "year": "1991",
+     "desc": "Paris Club agreement: 50% reduction of official bilateral debt"
+    },
+    {
+     "year": "1994",
+     "desc": "London Club Brady deal on ~$13bn commercial debt (~49% reduction)"
+    }
+   ],
+   "headline": "A-/A2 ratings under pressure from deficits above 6% of GDP and rapid debt build-up; outlooks negative.",
+   "unverified": true
+  },
+  "HUN": {
+   "imf": null,
+   "defaults": [],
+   "headline": "BBB-/Baa2 with negative pressure; high deficits and interest costs ahead of/after 2026 election.",
+   "unverified": true
+  },
+  "ROU": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1981",
+     "desc": "Arrears on commercial bank debt; 1982-83 reschedulings (all external debt repaid by 1989)"
+    }
+   ],
+   "headline": "BBB- (lowest IG) after EU's largest deficit (~9% of GDP); fiscal consolidation key to avoiding junk.",
+   "unverified": true
+  },
+  "CZE": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AA-/Aa3; low debt and strong institutions, stable outlook.",
+   "unverified": true
+  },
+  "TUR": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1982",
+     "desc": "Final round of 1978-82 commercial bank and Paris Club debt reschedulings"
+    }
+   ],
+   "headline": "Upgraded to BB- range since 2024 on orthodox policy; disinflation and reserve rebuilding drive further upgrade hopes.",
+   "unverified": true
+  },
+  "UKR": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2026-02",
+    "size": "SDR 5.94bn (~US$8.1bn)",
+    "ends": "2030-02",
+    "note": "48-month EFF; 1st review completed Jul-2026; 2nd/3rd reviews to be combined by Dec-2026."
+   },
+   "defaults": [
+    {
+     "year": "1998",
+     "desc": "Restructuring of bank loan and ING/Merrill bonds (1998-99)"
+    },
+    {
+     "year": "2000",
+     "desc": "Bond exchange of ~$2.6bn Eurobonds"
+    },
+    {
+     "year": "2015",
+     "desc": "Eurobond restructuring ~$18bn, 20% haircut plus GDP warrants"
+    },
+    {
+     "year": "2022",
+     "desc": "Payment moratorium: 2-year deferral of ~$20bn Eurobond payments"
+    },
+    {
+     "year": "2024",
+     "desc": "Eurobond restructuring ~$20bn, ~37% nominal haircut"
+    },
+    {
+     "year": "2025",
+     "desc": "GDP-warrant exchange (Dec-2025): $2.6bn warrants swapped into ~$3.5bn 2032 C notes"
+    }
+   ],
+   "headline": "Commercial restructuring complete after Dec-2025 GDP-warrant swap; new $8.1bn IMF EFF on track amid war financing needs.",
+   "unverified": false
+  },
+  "KAZ": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "2009",
+     "desc": "No sovereign default; state-owned BTA Bank restructured ~$12bn debt (2009-10, quasi-sovereign)"
+    }
+   ],
+   "headline": "BBB/Baa1 ratings; oil fund buffers strong, but fiscal reliance on NFRK transfers rising.",
+   "unverified": true
+  },
+  "UZB": {
+   "imf": null,
+   "defaults": [],
+   "headline": "BB rated; regular Eurobond issuer with reform-driven upgrades, privatisation programme ongoing.",
+   "unverified": true
+  },
+  "SRB": {
+   "imf": {
+    "type": "PCI",
+    "approved": "2024-12",
+    "size": "Non-financing (no disbursements)",
+    "ends": "2027-12",
+    "note": "36-month Policy Coordination Instrument; 3rd review concluded Jun-2026 (lapse of time)."
+   },
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "SFR Yugoslavia: commercial and Paris Club reschedulings (1983-88)"
+    },
+    {
+     "year": "1992",
+     "desc": "FR Yugoslavia arrears on external debt under sanctions (1992-2000)"
+    },
+    {
+     "year": "2001",
+     "desc": "Paris Club: 66% reduction of ~$4.5bn official debt"
+    },
+    {
+     "year": "2004",
+     "desc": "London Club deal: ~62% write-off on ~$2.8bn commercial debt"
+    }
+   ],
+   "headline": "Investment grade (S&P BBB-, 2024); IMF PCI on track, growth ~2.8% in 2026 despite political tensions.",
+   "unverified": false
+  },
+  "BRA": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Commercial bank debt reschedulings (1983-86)"
+    },
+    {
+     "year": "1987",
+     "desc": "Moratorium on ~$68bn commercial bank debt interest"
+    },
+    {
+     "year": "1994",
+     "desc": "Brady plan exchange of ~$52bn bank debt"
+    }
+   ],
+   "headline": "BB rated; rising gross debt (~80% of GDP) and high Selic weigh, 2026 election shapes fiscal path.",
+   "unverified": true
+  },
+  "MEX": {
+   "imf": {
+    "type": "FCL",
+    "approved": "2025-11",
+    "size": "SDR 17.83bn (~US$24bn)",
+    "ends": "2027-11",
+    "note": "Precautionary; undrawn."
+   },
+   "defaults": [
+    {
+     "year": "1982",
+     "desc": "Moratorium on commercial bank principal triggers LatAm debt crisis; reschedulings 1982-88"
+    },
+    {
+     "year": "1989",
+     "desc": "First Brady deal (1989-90) on ~$48bn bank debt"
+    }
+   ],
+   "headline": "BBB/Baa2 with Pemex support and fiscal consolidation in focus; precautionary FCL renewed Nov-2025.",
+   "unverified": true
+  },
+  "ARG": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2025-04",
+    "size": "SDR 15.27bn (~US$20bn)",
+    "ends": "2029-04",
+    "note": "2nd review completed May-2026 (~US$1bn); 3rd review talks ongoing (Sep-2026)."
+   },
+   "defaults": [
+    {
+     "year": "1982",
+     "desc": "Debt crisis; commercial reschedulings and arrears (1982-92)"
+    },
+    {
+     "year": "1993",
+     "desc": "Brady deal on ~$28bn bank debt"
+    },
+    {
+     "year": "2001",
+     "desc": "Default on ~$82bn bonds; exchanges in 2005 and 2010"
+    },
+    {
+     "year": "2014",
+     "desc": "Selective default after US holdout ruling; holdouts settled 2016 (~$9bn)"
+    },
+    {
+     "year": "2020",
+     "desc": "Restructuring of ~$65bn foreign-law bonds (plus local-law exchange)"
+    },
+    {
+     "year": "2022",
+     "desc": "Paris Club rescheduling of ~$2bn arrears"
+    }
+   ],
+   "headline": "Upgrades (Moody's Caa1) after FX float and reforms; market access regained 2026; IMF EFF 3rd review under negotiation.",
+   "unverified": false
+  },
+  "CHL": {
+   "imf": {
+    "type": "FCL",
+    "approved": "2026-08",
+    "size": "SDR 8.72bn (~US$12bn)",
+    "ends": "2028-08",
+    "note": "New 2-year precautionary FCL approved 26-Aug-2026; undrawn."
+   },
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Commercial bank debt reschedulings during 1980s debt crisis (1983-90)"
+    }
+   ],
+   "headline": "A-rated; new precautionary IMF FCL approved Aug-2026; fiscal rule credibility under new government watched.",
+   "unverified": true
+  },
+  "COL": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "FCL (Apr-2024, SDR 6.13bn) suspended Apr-2025 over fiscal slippage and cancelled Oct-2025."
+   },
+   "defaults": [],
+   "headline": "Lost investment grade; widening deficits, suspended fiscal rule and IMF FCL cancellation drove downgrades to BB/BB-.",
+   "unverified": false
+  },
+  "PER": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Arrears and reschedulings; 1985 cap of debt service at 10% of exports"
+    },
+    {
+     "year": "1997",
+     "desc": "Brady deal on ~$10.6bn commercial debt"
+    }
+   ],
+   "headline": "BBB-range ratings resilient despite political instability; 2026 election transition watched.",
+   "unverified": true
+  },
+  "ECU": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2024-05",
+    "size": "SDR 3.75bn (~US$5bn, augmented 2025)",
+    "ends": "2028-05",
+    "note": "5th review completed Apr-2026 (US$394m); waivers granted."
+   },
+   "defaults": [
+    {
+     "year": "1982",
+     "desc": "Rescheduling of commercial bank debt; 1987 moratorium"
+    },
+    {
+     "year": "1995",
+     "desc": "Brady deal"
+    },
+    {
+     "year": "1999",
+     "desc": "Default on Brady bonds; 2000 exchange"
+    },
+    {
+     "year": "2008",
+     "desc": "Default on 2012/2030 Global bonds (~$3.2bn); 2009 buyback at ~35c"
+    },
+    {
+     "year": "2020",
+     "desc": "Restructuring of ~$17.4bn Eurobonds"
+    }
+   ],
+   "headline": "Market return Jan-2026 ($4bn issue, $3bn buyback); Moody's to Caa1, Fitch to B-; IMF EFF on track.",
+   "unverified": false
+  },
+  "DOM": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1982",
+     "desc": "Arrears and reschedulings (1982-94); 1994 Brady deal"
+    },
+    {
+     "year": "2005",
+     "desc": "Bond exchange (~$1.1bn) plus Paris and London Club reschedulings"
+    }
+   ],
+   "headline": "BB rated with upgrade momentum; strong growth, though low tax take limits fiscal space.",
+   "unverified": true
+  },
+  "PAN": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1987",
+     "desc": "Suspension of commercial debt service (1987-96)"
+    },
+    {
+     "year": "1996",
+     "desc": "Brady deal on ~$3.9bn bank debt"
+    }
+   ],
+   "headline": "Lost IG at Fitch (2024); mine closure, pension reform and fiscal consolidation keep BBB- ratings under pressure.",
+   "unverified": true
+  },
+  "CRI": {
+   "imf": {
+    "type": "FCL",
+    "approved": "2025-06",
+    "size": "SDR 1.11bn (~US$1.5bn)",
+    "ends": "2027-06",
+    "note": "Precautionary; followed completed EFF/RSF (2021-25)."
+   },
+   "defaults": [
+    {
+     "year": "1981",
+     "desc": "Moratorium on external debt; arrears 1981-89"
+    },
+    {
+     "year": "1990",
+     "desc": "Brady deal / buyback on ~$1.6bn bank debt"
+    }
+   ],
+   "headline": "Upgraded to BB+/Ba1 range on primary surpluses; precautionary FCL since 2025, eyeing investment grade.",
+   "unverified": true
+  },
+  "SLV": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2025-02",
+    "size": "SDR 1.03bn (~US$1.4bn)",
+    "ends": "2028-06",
+    "note": "2nd & 3rd reviews completed 1-Oct-2026 (US$138m) with waiver on Bitcoin accumulation."
+   },
+   "defaults": [
+    {
+     "year": "2017",
+     "desc": "Missed payment on domestic pension-fund debt (CIP A); S&P 'SD' briefly"
+    }
+   ],
+   "headline": "IMF reviews completed Oct-2026 despite Bitcoin breach waiver; B-range ratings after 2024-25 liability management.",
+   "unverified": false
+  },
+  "BOL": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2026-10",
+    "size": "~US$1.9bn",
+    "ends": "2029-10",
+    "note": "36-month EFF approved 2-Oct-2026; ~US$214m disbursed upfront."
+   },
+   "defaults": [
+    {
+     "year": "1984",
+     "desc": "Suspension of commercial bank debt service (1984-86)"
+    },
+    {
+     "year": "1987",
+     "desc": "IMF-supported buyback of commercial debt at ~11c (~$0.7bn)"
+    },
+    {
+     "year": "1998",
+     "desc": "HIPC (1998, 2001) and MDRI (2006) official debt relief"
+    }
+   ],
+   "headline": "New IMF EFF approved Oct-2026 under Paz; upgrades (S&P CCC+, Moody's Caa3) and $1bn bond issue eased default fears.",
+   "unverified": false
+  },
+  "URY": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Commercial reschedulings (1983-91); 1991 Brady deal"
+    },
+    {
+     "year": "2003",
+     "desc": "Pre-emptive bond exchange of ~$5.4bn"
+    }
+   ],
+   "headline": "Investment grade (BBB+/Baa1); stable institutions, low spreads.",
+   "unverified": true
+  },
+  "CHN": {
+   "imf": null,
+   "defaults": [],
+   "headline": "A+/A1 with rising government debt; local-government debt swap programme and property slump weigh on ratings.",
+   "unverified": true
+  },
+  "IND": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Upgraded to BBB by S&P (2025); fiscal consolidation and strong growth support ratings.",
+   "unverified": true
+  },
+  "IDN": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1998",
+     "desc": "Paris Club reschedulings (1998, 2000, 2002) and London Club bank debt rescheduling; no bond default"
+    }
+   ],
+   "headline": "BBB/Baa2; fiscal-rule worries and central-bank independence concerns after 2025 finance minister change.",
+   "unverified": true
+  },
+  "PHL": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Moratorium on principal; reschedulings 1984-90"
+    },
+    {
+     "year": "1992",
+     "desc": "Brady deal on ~$4.5bn commercial debt"
+    }
+   ],
+   "headline": "BBB+/Baa2 with upgrade ambitions; fiscal consolidation and infrastructure spending in focus.",
+   "unverified": true
+  },
+  "VNM": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1993",
+     "desc": "Paris Club rescheduling of arrears"
+    },
+    {
+     "year": "1997",
+     "desc": "London Club Brady deal (~$0.8bn)"
+    },
+    {
+     "year": "2000",
+     "desc": "Russia wrote off ~85% of Soviet-era debt"
+    }
+   ],
+   "headline": "BB+/Ba2 with upgrade momentum; strong growth, low public debt, US tariff exposure.",
+   "unverified": true
+  },
+  "MYS": {
+   "imf": null,
+   "defaults": [],
+   "headline": "A-/A3 stable; subsidy rationalisation supports deficit reduction.",
+   "unverified": true
+  },
+  "THA": {
+   "imf": null,
+   "defaults": [],
+   "headline": "BBB+/Baa1; outlook pressure from weak growth and political instability.",
+   "unverified": true
+  },
+  "PAK": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2024-09",
+    "size": "SDR 5.32bn (~US$7bn) + RSF SDR 1.0bn (~US$1.4bn, May-2025)",
+    "ends": "2027-10",
+    "note": "3rd EFF / 2nd RSF reviews completed May-2026 (~US$1.3bn); total disbursed ~US$4.8bn."
+   },
+   "defaults": [
+    {
+     "year": "1999",
+     "desc": "Paris Club rescheduling; Eurobond exchange (~$610m) under comparability of treatment"
+    },
+    {
+     "year": "2001",
+     "desc": "Paris Club rescheduling of ~$12.5bn bilateral debt"
+    },
+    {
+     "year": "2020",
+     "desc": "G20 DSSI debt service suspension"
+    }
+   ],
+   "headline": "IMF EFF on track (3rd review May-2026); upgrades to CCC+/B- range, reserves rebuilt but external financing still tight.",
+   "unverified": false
+  },
+  "LKA": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2023-03",
+    "size": "SDR 2.29bn (~US$3bn)",
+    "ends": "2027-03",
+    "note": "Combined 5th/6th reviews completed May-2026; RFI US$206m (Dec-2025) after Cyclone Ditwah."
+   },
+   "defaults": [
+    {
+     "year": "2022",
+     "desc": "Default (Apr-2022) on ~$12.5bn ISBs and bilateral debt"
+    },
+    {
+     "year": "2023",
+     "desc": "Bilateral agreements with OCC and China Exim (2023-24)"
+    },
+    {
+     "year": "2024",
+     "desc": "ISB exchange (Dec-2024): ~$12.5bn into macro-linked bonds, ~27% haircut"
+    }
+   ],
+   "headline": "Post-restructuring: bonds exchanged Dec-2024; IMF EFF reviews completed May-2026 despite cyclone shock; ratings in CCC+/B- range.",
+   "unverified": false
+  },
+  "BGD": {
+   "imf": {
+    "type": "ECF-EFF blend",
+    "approved": "2023-01",
+    "size": "SDR 3.04bn (EFF SDR 2.02bn + ECF SDR 1.01bn, ~US$4.1bn); RSF separate",
+    "ends": "2027-01",
+    "note": "New BNP government requested successor programme (Jun-2026); ~US$5bn new deal under negotiation."
+   },
+   "defaults": [],
+   "headline": "New BNP government replacing legacy IMF deal with ~US$5bn successor; weak growth and banking-sector stress weigh on B+ ratings.",
+   "unverified": false
+  },
+  "MNG": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "2003",
+     "desc": "Russia wrote off ~98% of Soviet-era debt"
+    }
+   ],
+   "headline": "B+/B1; 2026 Article IV notes resilience but loosening fiscal stance and coal-price dependence.",
+   "unverified": false
+  },
+  "SAU": {
+   "imf": null,
+   "defaults": [],
+   "headline": "A/Aa3 ratings; heavy Eurobond issuance funds deficits and Vision 2030 amid Iran-war oil volatility.",
+   "unverified": true
+  },
+  "ARE": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "2009",
+     "desc": "No sovereign default; Dubai World (GRE) ~$25bn standstill and restructuring"
+    }
+   ],
+   "headline": "AA-range; Abu Dhabi's large net foreign assets underpin resilience through the 2026 Iran war.",
+   "unverified": false
+  },
+  "QAT": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AA-range; IMF sees deep 2026 contraction as Iran war disrupts LNG exports, but huge buffers support ratings.",
+   "unverified": false
+  },
+  "OMN": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Back to investment grade (BBB-) on debt reduction; Iran-war regional risk watched.",
+   "unverified": false
+  },
+  "BHR": {
+   "imf": null,
+   "defaults": [],
+   "headline": "Weakest GCC credit: downgraded to B (Apr-2026) on Iran-war fallout; reliance on Gulf support critical.",
+   "unverified": false
+  },
+  "KWT": {
+   "imf": null,
+   "defaults": [],
+   "headline": "AA-/A1; debt law enabling new issuance; IMF projects 2026 contraction amid regional war.",
+   "unverified": false
+  },
+  "EGY": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2022-12",
+    "size": "SDR 6.11bn (~US$8bn, augmented Mar-2024) + RSF SDR 1.0bn (Mar-2025)",
+    "ends": "2026-12",
+    "note": "7th EFF / 2nd RSF reviews completed Jul-2026 (~US$1.8bn); programme ends Dec-2026."
+   },
+   "defaults": [
+    {
+     "year": "1987",
+     "desc": "Paris Club rescheduling"
+    },
+    {
+     "year": "1991",
+     "desc": "Paris Club 50% reduction of official debt after Gulf War"
+    }
+   ],
+   "headline": "IMF EFF nearing end (Dec-2026) after 7th review; B-range ratings, heavy debt-service burden and successor arrangement in focus.",
+   "unverified": false
+  },
+  "MAR": {
+   "imf": {
+    "type": "FCL",
+    "approved": "2025-04",
+    "size": "SDR 3.45bn (~US$4.5bn)",
+    "ends": "2027-04",
+    "note": "Precautionary; undrawn."
+   },
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Paris and London Club reschedulings (1983-92)"
+    }
+   ],
+   "headline": "Regained investment grade at S&P (2025); precautionary FCL in place, strong market access.",
+   "unverified": true
+  },
+  "TUN": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "2022 staff-level agreement (~US$1.9bn EFF) stalled; government rejects IMF conditions."
+   },
+   "defaults": [],
+   "headline": "Repaid last Eurobond (Jul-2026) from reserves; no IMF deal, relying on central-bank and domestic financing.",
+   "unverified": false
+  },
+  "JOR": {
+   "imf": {
+    "type": "EFF",
+    "approved": "2024-01",
+    "size": "SDR 926m (~US$1.2bn) + RSF SDR 515m (Jun-2025)",
+    "ends": "2028-01",
+    "note": "5th EFF / 2nd RSF reviews completed Jun-2026."
+   },
+   "defaults": [
+    {
+     "year": "1989",
+     "desc": "Suspension of debt service; Paris Club reschedulings 1989-99"
+    },
+    {
+     "year": "1993",
+     "desc": "Brady deal on ~$0.9bn commercial debt"
+    }
+   ],
+   "headline": "IMF EFF on track (5th review Jun-2026); BB- ratings resilient despite regional war.",
+   "unverified": false
+  },
+  "LBN": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "Apr-2022 staff-level agreement lapsed; authorities target new SLA by end-2026 after bank resolution law."
+   },
+   "defaults": [
+    {
+     "year": "2020",
+     "desc": "Default (Mar-2020) on ~$31bn Eurobonds; restructuring still pending"
+    }
+   ],
+   "headline": "Still in default since 2020; bank restructuring law passed, new IMF SLA hinges on financial gap law.",
+   "unverified": false
+  },
+  "IRQ": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1990",
+     "desc": "Arrears on external debt (Iran-Iraq war, sanctions)"
+    },
+    {
+     "year": "2004",
+     "desc": "Paris Club 80% reduction"
+    },
+    {
+     "year": "2006",
+     "desc": "Commercial claims exchange (~$20bn) into 2028 bonds"
+    }
+   ],
+   "headline": "B-/Caa1; oil-price dependence and bloated wage bill strain finances.",
+   "unverified": true
+  },
+  "ZAF": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1985",
+     "desc": "Debt standstill on ~$14bn short-term bank debt (sanctions); settled 1993"
+    }
+   ],
+   "headline": "Upgraded by S&P in 2025; debt stabilisation and lower inflation target support improving BB ratings.",
+   "unverified": true
+  },
+  "NGA": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Arrears and reschedulings (1983-2000)"
+    },
+    {
+     "year": "1991",
+     "desc": "Brady deal on ~$5.8bn commercial debt"
+    },
+    {
+     "year": "2005",
+     "desc": "Paris Club deal: ~$18bn (60%) write-off"
+    }
+   ],
+   "headline": "Upgraded by S&P to B and Moody's (May-2026) on FX reforms and Dangote refinery; new Eurobond planned.",
+   "unverified": false
+  },
+  "KEN": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "EFF/ECF (2021) lapsed after 9th review abandoned Mar-2025; new programme under negotiation (targeted mid-2026)."
+   },
+   "defaults": [
+    {
+     "year": "1994",
+     "desc": "Paris Club reschedulings (1994, 2000, 2004)"
+    }
+   ],
+   "headline": "No IMF programme since 2025; negotiating new deal amid ~$96bn public debt and heavy debt service.",
+   "unverified": false
+  },
+  "GHA": {
+   "imf": {
+    "type": "PCI",
+    "approved": "2026-05",
+    "size": "Non-financing (no disbursements)",
+    "ends": "2029-05",
+    "note": "ECF (May-2023, ~US$3bn) completed 15-May-2026; 36-month PCI requested - Board approval not confirmed."
+   },
+   "defaults": [
+    {
+     "year": "2022",
+     "desc": "Default (Dec-2022) on external debt service"
+    },
+    {
+     "year": "2024",
+     "desc": "Eurobond restructuring ~$13bn, ~37% haircut"
+    },
+    {
+     "year": "2025",
+     "desc": "Common Framework bilateral agreements (OCC MoU ~$5.4bn)"
+    }
+   ],
+   "headline": "Post-restructuring: ECF completed May-2026, transitioning to non-financing PCI after 2024 Eurobond restructuring.",
+   "unverified": false
+  },
+  "ZMB": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "ECF (Aug-2022, ~US$1.7bn) ended; IMF mission 30-Sep to 10-Oct-2026 on successor programme."
+   },
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Paris Club reschedulings (1983-99); HIPC/MDRI 2005"
+    },
+    {
+     "year": "2020",
+     "desc": "Default (Nov-2020) on ~$3bn Eurobonds"
+    },
+    {
+     "year": "2023",
+     "desc": "Common Framework OCC agreement (~$6.3bn)"
+    },
+    {
+     "year": "2024",
+     "desc": "Eurobond restructuring (~$3bn)"
+    }
+   ],
+   "headline": "Post-restructuring: Eurobonds exchanged 2024; ECF ended, talks on successor IMF programme under way after Aug-2026 election.",
+   "unverified": false
+  },
+  "CIV": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "EFF/ECF (May-2023, ~US$3.5bn) and RSF (Mar-2024, ~US$1.3bn) concluded mid-2026; new arrangement under consideration."
+   },
+   "defaults": [
+    {
+     "year": "1983",
+     "desc": "Paris and London Club reschedulings"
+    },
+    {
+     "year": "1987",
+     "desc": "Default on commercial bank debt; 1997 Brady deal (~$7bn)"
+    },
+    {
+     "year": "2000",
+     "desc": "Default on Brady bonds; 2010 exchange (~$2.3bn)"
+    },
+    {
+     "year": "2011",
+     "desc": "Missed Eurobond coupon during post-election crisis; cured 2012"
+    }
+   ],
+   "headline": "IMF programmes completed Jun-2026; BB-range credit with regular Eurobond access, successor deal under discussion.",
+   "unverified": false
+  },
+  "SEN": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "Staff-level agreement 1-Sep-2026 on 36-month ECF ~US$2.2bn, pending Board; previous programme suspended 2024 over hidden debt."
+   },
+   "defaults": [
+    {
+     "year": "1981",
+     "desc": "Paris Club reschedulings (1981-2000); HIPC 2004 / MDRI 2006"
+    },
+    {
+     "year": "2026",
+     "desc": "Ongoing: reprofiling of ~$5bn Eurobonds under enhanced G20 Common Framework announced Sep-2026"
+    }
+   ],
+   "headline": "Hidden-debt crisis: IMF ECF staff-level deal (Sep-2026) paired with Common Framework reprofiling of ~$5bn Eurobonds; coupons still paid.",
+   "unverified": false
+  },
+  "AGO": {
+   "imf": null,
+   "defaults": [
+    {
+     "year": "1985",
+     "desc": "Arrears to Paris Club and commercial creditors (1985-2000s), cleared bilaterally"
+    },
+    {
+     "year": "2020",
+     "desc": "Reprofiling of ~$6bn Chinese bilateral debt (3-year deferral)"
+    }
+   ],
+   "headline": "Not seeking IMF programme; JPMorgan TRS facility and $2.5bn Eurobond (Mar-2026) fund heavy debt service.",
+   "unverified": false
+  },
+  "ETH": {
+   "imf": {
+    "type": "ECF",
+    "approved": "2024-07",
+    "size": "SDR 2.56bn (~US$3.4bn)",
+    "ends": "2028-07",
+    "note": "Active per IMF lending table (31-Aug-2026); SDR 616m undrawn."
+   },
+   "defaults": [
+    {
+     "year": "2001",
+     "desc": "HIPC (2004) and MDRI official debt relief"
+    },
+    {
+     "year": "2021",
+     "desc": "Requested G20 Common Framework treatment"
+    },
+    {
+     "year": "2023",
+     "desc": "Default (Dec-2023) on $1bn Eurobond coupon"
+    },
+    {
+     "year": "2025",
+     "desc": "Common Framework OCC agreement on bilateral debt"
+    },
+    {
+     "year": "2026",
+     "desc": "Ongoing: Jun-2026 agreement in principle with bondholders - $880m new bonds, 12% haircut; exchange pending"
+    }
+   ],
+   "headline": "Eurobond deal in principle (Jun-2026) after talks collapsed in May; exchange offer pending under IMF ECF.",
+   "unverified": false
+  },
+  "GAB": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "Formally requested new IMF programme Mar-2026; debt audit launched Jun-2026; prior EFF (2021) lapsed."
+   },
+   "defaults": [
+    {
+     "year": "1986",
+     "desc": "Paris Club reschedulings (1986-2004)"
+    },
+    {
+     "year": "1999",
+     "desc": "Arrears on external debt; 2002 Paris Club rescheduling"
+    }
+   ],
+   "headline": "Debt rising toward ~90% of GDP; seeking IMF programme, with debt audit to restore credibility.",
+   "unverified": false
+  },
+  "CMR": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "ECF/EFF (2021) and RSF (2024) ended 2025; new 2026-29 programme under consideration."
+   },
+   "defaults": [
+    {
+     "year": "1989",
+     "desc": "Paris Club reschedulings (1989-2001); HIPC completion 2006"
+    }
+   ],
+   "headline": "Seeking successor IMF programme for 2026-29 to sustain budget support after 2021-25 ECF/EFF.",
+   "unverified": false
+  },
+  "RWA": {
+   "imf": {
+    "type": "ECF",
+    "approved": "2026-06",
+    "size": "SDR 185m (~US$250m)",
+    "ends": "2029-08",
+    "note": "38-month ECF approved 8-Jun-2026; replaces earlier non-financing PCI."
+   },
+   "defaults": [
+    {
+     "year": "2005",
+     "desc": "HIPC completion and MDRI official debt relief"
+    }
+   ],
+   "headline": "New 38-month IMF ECF (Jun-2026) to buffer oil shock and fiscal risks; growth 9.4% in 2025.",
+   "unverified": false
+  },
+  "BEN": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "EFF/ECF (2022) and RSF (2024) completed with final reviews Feb-2026; new government seeking successor programme."
+   },
+   "defaults": [
+    {
+     "year": "1989",
+     "desc": "Paris Club reschedulings (1989-2000); HIPC 2003 / MDRI 2006"
+    }
+   ],
+   "headline": "New Wadagni government prioritises successor IMF deal after 2022-26 EFF/ECF/RSF completed.",
+   "unverified": false
+  },
+  "MOZ": {
+   "imf": {
+    "type": "none",
+    "approved": null,
+    "size": null,
+    "ends": null,
+    "note": "ECF (2022) ended early Apr-2025; IMF credit fully repaid Mar-2026; new programme may require prior debt restructuring."
+   },
+   "defaults": [
+    {
+     "year": "1984",
+     "desc": "Paris Club reschedulings (1984-2000s); HIPC 2001"
+    },
+    {
+     "year": "1991",
+     "desc": "Commercial debt buyback at ~10c"
+    },
+    {
+     "year": "2016",
+     "desc": "EMATUM tuna-bond exchange (~$0.7bn)"
+    },
+    {
+     "year": "2017",
+     "desc": "Default on 2023 Eurobond coupon (hidden-debt scandal); 2019 exchange into $900m 2031 bonds"
+    },
+    {
+     "year": "2026",
+     "desc": "Brazil bilateral debt restructuring (~$143m); broader restructuring under consideration"
+    }
+   ],
+   "headline": "Debt deemed unsustainable; new IMF deal may require restructuring, with 2031 Eurobond amortisation from 2028 looming.",
+   "unverified": false
+  }
+ }
+}

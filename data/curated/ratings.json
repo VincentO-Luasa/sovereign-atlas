@@ -1,0 +1,1163 @@
+{
+ "asOf": "2026-10-03",
+ "sources": [
+  "tradingeconomics.com/<country>/rating (S&P history, Oct 2026)",
+  "worldgovernmentbonds.com/credit-rating/ (S&P/Moody's/Fitch to ~mid-2026)",
+  "countryeconomy.com/ratings/ (Moody's history)",
+  "news/agency press-release reports (Reuters, Bloomberg, TradingView, Euronews, fxempire, regional press) for 2026 actions"
+ ],
+ "ratings": {
+  "USA": {
+   "sp": {
+    "rating": "AA+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-13 (Fitch, affirmed AA+ Stable)"
+  },
+  "GBR": {
+   "sp": {
+    "rating": "AA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-14 (Fitch, affirmed AA- Stable)"
+  },
+  "FRA": {
+   "sp": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa3",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-28 (Fitch, affirmed A+ Stable; approx.)",
+   "note": "Moody's review due 2026-10-23; Fitch cut to A+ Sep 2025, S&P cut to A+ Oct 2025"
+  },
+  "DEU": {
+   "sp": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aaa",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "lastAction": "n.a. (routine affirmations only)"
+  },
+  "ITA": {
+   "sp": {
+    "rating": "BBB+",
+    "outlook": "Positive"
+   },
+   "moodys": {
+    "rating": "Baa2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-11 (Fitch, affirmed BBB+ Stable)",
+   "note": "S&P outlook to Positive Jan 2026; Moody's upgrade to Baa2 Nov 2025"
+  },
+  "ESP": {
+   "sp": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026 (Fitch, affirmed A Stable; date approx.)",
+   "note": "All three upgraded Sep 2025"
+  },
+  "PRT": {
+   "sp": {
+    "rating": "A+",
+    "outlook": "Positive"
+   },
+   "moodys": {
+    "rating": "A3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-04 (Fitch, upgrade A to A+)"
+  },
+  "GRC": {
+   "sp": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-18 (Moody's, outlook Stable to Positive; approx.)"
+  },
+  "BEL": {
+   "sp": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-05-22 (Fitch, affirmed A+ Stable)",
+   "note": "Moody's downgrade Aa3->A1 2026-04-17; S&P downgrade AA->AA- 2026-04-24"
+  },
+  "NLD": {
+   "sp": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aaa",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "lastAction": "n.a. (routine affirmations only)"
+  },
+  "CHE": {
+   "sp": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aaa",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "lastAction": "n.a. (routine affirmations only)"
+  },
+  "JPN": {
+   "sp": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-03-27 (S&P, affirmed A+ Stable)"
+  },
+  "CAN": {
+   "sp": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aaa",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA+",
+    "outlook": "Stable"
+   },
+   "lastAction": "n.a. (routine affirmations only)"
+  },
+  "AUS": {
+   "sp": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aaa",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AAA",
+    "outlook": "Stable"
+   },
+   "lastAction": "n.a. (routine affirmations only)"
+  },
+  "KOR": {
+   "sp": {
+    "rating": "AA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-05 (Fitch, affirmed AA- Stable; approx.)"
+  },
+  "ISR": {
+   "sp": {
+    "rating": "A",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-08-04 (S&P, affirmed A Stable; approx.)",
+   "note": "Moody's outlook to Stable 2026-01-30; Fitch affirmed A Negative 2026-03-27"
+  },
+  "POL": {
+   "sp": {
+    "rating": "A-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A-",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-09-18 (Moody's, downgrade A2->A3, outlook to Stable)"
+  },
+  "HUN": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "Baa2",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-06-05 (Fitch, affirmed BBB Negative; approx.)"
+  },
+  "ROU": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "BBB-",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-10-02 (S&P, affirmed BBB- Negative)",
+   "note": "One notch above junk at all three"
+  },
+  "CZE": {
+   "sp": {
+    "rating": "AA-",
+    "outlook": "Positive"
+   },
+   "moodys": {
+    "rating": "Aa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-25 (S&P, outlook Stable to Positive)"
+  },
+  "TUR": {
+   "sp": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-07-17 (Fitch, affirmed BB-, outlook Positive to Stable)"
+  },
+  "UKR": {
+   "sp": {
+    "rating": "CCC+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ca",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "CCC",
+    "outlook": "n.a."
+   },
+   "lastAction": "2026-04 (Fitch, affirmed CCC; approx.)",
+   "note": "Post-restructuring; Fitch upgraded RD->CCC 2025-12-22 after GDP-warrant restructuring; Moody's still Ca"
+  },
+  "KAZ": {
+   "sp": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-29 (Moody's, affirmed Baa1 Stable)",
+   "note": "S&P upgrade BBB-->BBB 2026-08-21"
+  },
+  "UZB": {
+   "sp": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB",
+    "outlook": "Positive"
+   },
+   "lastAction": "2026-06-25 (Moody's, upgrade Ba3->Ba2)"
+  },
+  "SRB": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB+",
+    "outlook": "Positive"
+   },
+   "lastAction": "2026-07-10 (Fitch, affirmed BB+ Positive)"
+  },
+  "BRA": {
+   "sp": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-06-16 (Fitch, affirmed BB Stable)"
+  },
+  "MEX": {
+   "sp": {
+    "rating": "BBB",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-05-20 (Moody's, downgrade Baa2->Baa3, outlook to Stable)",
+   "note": "S&P outlook to Negative 2026-05-13"
+  },
+  "ARG": {
+   "sp": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B3",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-07-21 (Moody's, upgrade Caa1->B3, Positive)",
+   "note": "Fitch upgrade to B- 2026-05-05; S&P upgrade to B- 2026-06-10"
+  },
+  "CHL": {
+   "sp": {
+    "rating": "A",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-18 (Fitch, affirmed A- Stable)"
+  },
+  "COL": {
+   "sp": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-04-08 (S&P, downgrade BB->BB-)",
+   "note": "Fitch cut BB+->BB 2025-12-16"
+  },
+  "PER": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "lastAction": "n.a. (no 2026 action found)"
+  },
+  "ECU": {
+   "sp": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-13 (S&P, upgrade B-->B)",
+   "note": "Moody's upgrade Caa3->Caa1 2026-01-27"
+  },
+  "DOM": {
+   "sp": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-04-22 (Fitch, affirmed BB-, outlook Positive to Stable)"
+  },
+  "PAN": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "BB+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-22 (S&P, affirmed BBB- Stable)",
+   "note": "Split rating: Fitch sub-IG"
+  },
+  "CRI": {
+   "sp": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB",
+    "outlook": "Positive"
+   },
+   "lastAction": "2026-07-16 (S&P, affirmed BB Stable)"
+  },
+  "SLV": {
+   "sp": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B3",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-04-24 (Fitch, affirmed B- Stable)",
+   "note": "Conflicting report of a Fitch upgrade to B (unconfirmed)",
+   "unverified": true
+  },
+  "BOL": {
+   "sp": {
+    "rating": "CCC+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa2",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "CCC",
+    "outlook": "n.a."
+   },
+   "lastAction": "2026-09-30 (Moody's, upgrade Caa3->Caa2)",
+   "note": "Distressed; S&P upgraded CCC- to CCC+ Mar 2026 after debt-management operation"
+  },
+  "URY": {
+   "sp": {
+    "rating": "BBB+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-10 (Fitch, affirmed BBB Stable)"
+  },
+  "CHN": {
+   "sp": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-06 (Fitch, affirmed A Stable; approx.)",
+   "note": "Moody's outlook to Stable 2026-04-27"
+  },
+  "IND": {
+   "sp": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-11 (Fitch, affirmed BBB- Stable)"
+  },
+  "IDN": {
+   "sp": {
+    "rating": "BBB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa2",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-07-13 (S&P, affirmed BBB Stable)",
+   "note": "Moody's outlook to Negative 2026-02-05; Fitch outlook to Negative 2026-03-04"
+  },
+  "PHL": {
+   "sp": {
+    "rating": "BBB+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-08-24 (Moody's, affirmed Baa2 Stable)",
+   "note": "Fitch outlook to Negative 2026-04-20"
+  },
+  "VNM": {
+   "sp": {
+    "rating": "BB+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "BB+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-06 (Fitch, affirmed BB+ Stable; approx.)"
+  },
+  "MYS": {
+   "sp": {
+    "rating": "A-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-07-14 (Moody's, affirmed A3 Stable)"
+  },
+  "THA": {
+   "sp": {
+    "rating": "BBB+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-18 (Fitch, outlook Negative to Stable)"
+  },
+  "PAK": {
+   "sp": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-24 (Moody's, upgrade Caa1->B3)",
+   "note": "S&P upgrade to B 2026-07-22; possible unconfirmed Fitch upgrade to B (Sep 2026)",
+   "unverified": true
+  },
+  "LKA": {
+   "sp": {
+    "rating": "CCC+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-22 (Fitch, upgrade CCC+->B-)",
+   "note": "Post-default, restructuring completed"
+  },
+  "BGD": {
+   "sp": {
+    "rating": "B+",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "B2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B+",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-09-15 (Moody's, outlook Negative to Stable)",
+   "note": "S&P outlook to Negative 2026-07-27"
+  },
+  "MNG": {
+   "sp": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08 (Fitch, affirmed B+ Stable; approx.)"
+  },
+  "SAU": {
+   "sp": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "A+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-07-11 (Fitch, affirmed A+ Stable; approx.)"
+  },
+  "ARE": {
+   "sp": {
+    "rating": "AA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-06-13 (Moody's, affirmed Aa2 Stable; approx.)"
+  },
+  "QAT": {
+   "sp": {
+    "rating": "AA",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Aa2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-09-04 (Fitch, removed from Watch Negative, affirmed AA, Negative outlook)",
+   "note": "One report says Fitch outlook Stable",
+   "unverified": true
+  },
+  "OMN": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Baa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-27 (S&P, affirmed BBB- Stable)"
+  },
+  "BHR": {
+   "sp": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B2",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-04-17 (Moody's, outlook Stable to Negative)",
+   "note": "Fitch downgrade B+->B 2026-02-23; Fitch outlook not confirmed",
+   "unverified": true
+  },
+  "KWT": {
+   "sp": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "A1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "AA-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-07 (Fitch, affirmed AA- Stable; approx.)"
+  },
+  "EGY": {
+   "sp": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-04-03 (Moody's, affirmed Caa1 Positive)",
+   "note": "Fitch review pending (late Sep 2026)"
+  },
+  "MAR": {
+   "sp": {
+    "rating": "BBB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba1",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "BB+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-18 (Fitch, affirmed BB+ Stable; approx.)"
+  },
+  "TUN": {
+   "sp": null,
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-08 (Fitch, affirmed B- Stable)",
+   "note": "Not rated by S&P (since 2013)"
+  },
+  "JOR": {
+   "sp": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-30 (S&P, affirmed BB- Stable)"
+  },
+  "LBN": {
+   "sp": {
+    "rating": "SD",
+    "outlook": "n.a."
+   },
+   "moodys": {
+    "rating": "C",
+    "outlook": "Stable"
+   },
+   "fitch": null,
+   "lastAction": "2024-07-23 (Fitch, RD affirmed then ratings withdrawn)",
+   "note": "IN DEFAULT since Mar 2020 (S&P SD, Moody's C); Fitch withdrew at RD"
+  },
+  "IRQ": {
+   "sp": {
+    "rating": "B-",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-06-12 (S&P, outlook to Negative)"
+  },
+  "ZAF": {
+   "sp": {
+    "rating": "BB",
+    "outlook": "Positive"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-06-05 (Fitch, upgrade BB- to BB)"
+  },
+  "NGA": {
+   "sp": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B3",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-08-28 (Moody's, outlook Stable to Positive)",
+   "note": "S&P upgrade to B 2026-05-15"
+  },
+  "KEN": {
+   "sp": {
+    "rating": "B",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-01-27 (Moody's, upgrade Caa1->B3)"
+  },
+  "GHA": {
+   "sp": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B",
+    "outlook": "Positive"
+   },
+   "lastAction": "2026-05-08 (Fitch, upgrade B- to B)",
+   "note": "Exited default 2025 after restructuring"
+  },
+  "ZMB": {
+   "sp": {
+    "rating": "CCC+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa2",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2025-11-28 (Fitch, upgrade RD to B-)",
+   "note": "Exited default after restructuring"
+  },
+  "CIV": {
+   "sp": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "BB",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-03-13 (Moody's, affirmed Ba2 Stable)"
+  },
+  "SEN": {
+   "sp": {
+    "rating": "CC",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "Caa2",
+    "outlook": "Negative"
+   },
+   "fitch": null,
+   "lastAction": "2026-09-04 (S&P, downgrade CCC+ to CC)",
+   "note": "Distressed; restructuring expected (S&P sees losses for FX creditors); not rated by Fitch"
+  },
+  "AGO": {
+   "sp": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B3",
+    "outlook": "Positive"
+   },
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-09-25 (Moody's, outlook Stable to Positive)"
+  },
+  "ETH": {
+   "sp": {
+    "rating": "SD",
+    "outlook": "n.a."
+   },
+   "moodys": {
+    "rating": "Caa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "RD",
+    "outlook": "n.a."
+   },
+   "lastAction": "2025-10 (Fitch, affirmed RD; approx.)",
+   "note": "IN DEFAULT since Dec 2023 Eurobond miss; bondholder deal agreed 2026-06-29, exchange pending"
+  },
+  "GAB": {
+   "sp": null,
+   "moodys": {
+    "rating": "Caa2",
+    "outlook": "Negative"
+   },
+   "fitch": {
+    "rating": "CCC-",
+    "outlook": "n.a."
+   },
+   "lastAction": "2026-06-24 (Moody's, outlook to Negative)",
+   "note": "Distressed; risk of further distressed debt exchanges; not rated by S&P"
+  },
+  "CMR": {
+   "sp": {
+    "rating": "B-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B",
+    "outlook": "Negative"
+   },
+   "lastAction": "2026-04-24 (Fitch, affirmed B Negative)"
+  },
+  "RWA": {
+   "sp": {
+    "rating": "B+",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "B2",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B+",
+    "outlook": "Stable"
+   },
+   "lastAction": "2026-03-13 (Fitch, outlook Negative to Stable)",
+   "note": "Moody's outlook conflict (TE Stable vs fxempire Negative)",
+   "unverified": true
+  },
+  "BEN": {
+   "sp": {
+    "rating": "BB-",
+    "outlook": "Stable"
+   },
+   "moodys": {
+    "rating": "Ba3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "B+",
+    "outlook": "Positive"
+   },
+   "lastAction": "2026-08-10 (Moody's, upgrade B1->Ba3)"
+  },
+  "MOZ": {
+   "sp": {
+    "rating": "CCC",
+    "outlook": "Negative"
+   },
+   "moodys": {
+    "rating": "Caa3",
+    "outlook": "Stable"
+   },
+   "fitch": {
+    "rating": "CC",
+    "outlook": "n.a."
+   },
+   "lastAction": "2026-09-25 (S&P, CCC Negative)",
+   "note": "Distressed; likely Eurobond distressed exchange (Fitch CC); Moody's cut to Caa3 Sep 2026"
+  }
+ }
+}
