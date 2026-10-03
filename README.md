@@ -1,5 +1,7 @@
 # Sovereign Atlas
 
+**Live app:** https://vincento-luasa.github.io/sovereign-atlas/
+
 An interactive, playful-but-rigorous web app for getting up to speed on a sovereign credit in minutes — built for sovereign advisory work (ratings advisory, Eurobond issuance, IMF programmes, debt restructurings).
 
 ## What's inside
@@ -54,7 +56,7 @@ To update ratings or market data, edit the JSON in `data/curated/` and run `npm 
 
 ## Deploy
 
-The build is a static site (`dist/`) with relative paths — host it anywhere. A GitHub Pages workflow is included (`.github/workflows/deploy.yml`, manual trigger; enable Pages → *GitHub Actions* first).
+Live at **https://vincento-luasa.github.io/sovereign-atlas/** — every push to `main` redeploys via `.github/workflows/deploy.yml`. The build is a static site (`dist/`) with relative paths, so it can be hosted anywhere.
 
 ## Stack
 
